@@ -1,0 +1,7 @@
+[user]
+	email = tkrajina@gmail.com
+	name = Tomo Krajina
+[color]
+	ui = true
+[pretty]
+	my = %h \"%Cred%s%Creset\", %Cgreen%an%Creset %ar
