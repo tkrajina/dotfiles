@@ -4,4 +4,4 @@
 [color]
 	ui = true
 [pretty]
-	my = %h \"%Cred%s%Creset\", %Cgreen%an%Creset %ar
+	my = %h %Cgreen%an%Creset \"%Cred%s%Creset\", %ar
