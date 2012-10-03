@@ -7,3 +7,5 @@
 	my = %h %Cgreen%an%Creset \"%Cred%s%Creset\", %ar
 	my2 = %h %Cgreen%an%Creset \"%Cred%s%Creset\", %cD
 	sha1 = %H
+[mergetool]
+	keepBackup = false
