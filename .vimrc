@@ -42,3 +42,8 @@ map <C-c>a mc1GVG"+y'c<CR>
 map <C-W>w 080lBi<CR><Esc> 
 
 map <C-c> :!ctags -R .<CR>
+
+" Refresh:
+map <F5>          :e<CR>
+" Refresh and go to end of file:
+map <F6>          :e<CR>G
