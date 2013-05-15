@@ -47,3 +47,6 @@ map <C-c> :!ctags -R .<CR>
 map <F5>          :e<CR>
 " Refresh and go to end of file:
 map <F6>          :e<CR>G
+
+" Ask to save on QA
+map ZQ :conf qa<CR>
