@@ -49,4 +49,4 @@ map <F5>          :e<CR>
 map <F6>          :e<CR>G
 
 " Ask to save on QA
-map ZQ :conf qa<CR>
+map ZQ :conf q<CR>
