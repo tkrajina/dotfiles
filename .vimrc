@@ -1,3 +1,6 @@
+" No swap files:
+set noswapfile 
+
 " Ignore case when searching:
 set ic
 
@@ -50,3 +53,7 @@ map <F6>          :e<CR>G
 
 " Ask to save on QA
 map ZQ :conf q<CR>
+
+if ! has("gui_running")
+    colorscheme evening
+endif
