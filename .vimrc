@@ -1,3 +1,6 @@
+" s to save file in command mode:
+map s :wa
+
 " No swap files:
 set noswapfile 
 
