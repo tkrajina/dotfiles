@@ -1,5 +1,5 @@
 " s to save file in command mode:
-map s :wa
+map s :w<CR>
 
 " No swap files:
 set noswapfile 
