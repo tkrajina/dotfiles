@@ -58,5 +58,5 @@ map <F6>          :e<CR>G
 map ZQ :conf q<CR>
 
 if ! has("gui_running")
-    colorscheme evening
+    colorscheme koehler
 endif
