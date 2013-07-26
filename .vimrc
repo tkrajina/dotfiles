@@ -57,6 +57,8 @@ map <F6>          :e<CR>G
 " Ask to save on QA
 map ZQ :conf q<CR>
 
-if ! has("gui_running")
+if has("gui_running")
+    colorscheme koehler
+else
     colorscheme koehler
 endif
