@@ -9,3 +9,7 @@
 	sha1 = %H
 [mergetool]
 	keepBackup = false
+[multi]
+	groupbyoutput = 1
+[core]
+	editor = vim
