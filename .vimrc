@@ -101,3 +101,6 @@ set tabline=%!MyTabLine()
 " Enumerate tabs for gvim:
 set guitablabel=(%N)\ %t\ %M
 
+execute pathogen#infect()
+
+command GoLang :setlocal omnifunc=go#complete#Complete
