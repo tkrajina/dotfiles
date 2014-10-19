@@ -101,6 +101,6 @@ set tabline=%!MyTabLine()
 " Enumerate tabs for gvim:
 set guitablabel=(%N)\ %t\ %M
 
-execute pathogen#infect()
+filetype plugin indent on
 
-command GoLang :setlocal omnifunc=go#complete#Complete
+execute pathogen#infect()
