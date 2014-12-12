@@ -103,4 +103,5 @@ set guitablabel=(%N)\ %t\ %M
 
 filetype plugin indent on
 
-execute pathogen#infect()
+" Uncomment this:
+"execute pathogen#infect()
