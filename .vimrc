@@ -103,5 +103,7 @@ set guitablabel=(%N)\ %t\ %M
 
 filetype plugin indent on
 
+command! RandomLine execute 'normal! '.(matchstr(system('od -vAn -N3 -tu4 /dev/urandom'), '^\_s*\zs.\{-}\ze\_s*$') % line('$')).'G'
+
 " Uncomment this:
 "execute pathogen#infect()
