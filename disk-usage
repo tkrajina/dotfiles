@@ -1,0 +1,2 @@
+du -h -s $(ls -a | grep "^\.[^\.]")
+du -h -s $(ls)
