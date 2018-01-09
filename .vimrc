@@ -103,6 +103,10 @@ set guitablabel=(%N)\ %t\ %M
 
 filetype plugin indent on
 
+" Disable bell in MacVim
+set visualbell
+set t_vb=
+
 command! RandomLine execute 'normal! '.(matchstr(system('od -vAn -N3 -tu4 /dev/urandom'), '^\_s*\zs.\{-}\ze\_s*$') % line('$')).'G'
 
 " Uncomment this:
