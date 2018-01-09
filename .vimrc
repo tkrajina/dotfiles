@@ -109,5 +109,19 @@ set t_vb=
 
 command! RandomLine execute 'normal! '.(matchstr(system('od -vAn -N3 -tu4 /dev/urandom'), '^\_s*\zs.\{-}\ze\_s*$') % line('$')).'G'
 
+let g:tagbar_type_typescript = {
+  \ 'ctagstype': 'typescript',
+  \ 'kinds': [
+    \ 'c:classes',
+    \ 'n:modules',
+    \ 'f:functions',
+    \ 'v:variables',
+    \ 'v:varlambdas',
+    \ 'm:members',
+    \ 'i:interfaces',
+    \ 'e:enums',
+  \ ]
+\ }
+
 " Uncomment this:
 "execute pathogen#infect()
